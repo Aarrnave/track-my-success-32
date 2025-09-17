@@ -178,14 +178,14 @@
 
 @layer components {
   .gradient-card {
-    @apply bg-gradient-to-br from-card via-card to-muted/20 border border-border/50 backdrop-blur-sm;
+    @apply bg-white border border-border/50;
   }
 
   .stat-card {
-    @apply gradient-card p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200;
+    @apply bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 border border-border/50;
   }
 
   .chart-container {
-    @apply gradient-card p-6 rounded-lg shadow-lg;
+    @apply bg-white p-6 rounded-lg shadow-lg border border-border/50;
   }
 }
