@@ -25,11 +25,11 @@
     --primary-dark: 126 34 206; /* purple-700 */
 
     /* Secondary */
-    --secondary: 241 245 249; /* slate-100 */
+    --secondary: 255 255 255; /* white */
     --secondary-foreground: 51 65 85; /* slate-700 */
 
     /* Muted */
-    --muted: 241 245 249; /* slate-100 */
+    --muted: 255 255 255; /* white */
     --muted-foreground: 100 116 139; /* slate-500 */
 
     /* Accent - Teal */
@@ -63,7 +63,7 @@
     --sidebar-foreground: 71 85 105; /* slate-600 */
     --sidebar-primary: 147 51 234; /* purple-600 */
     --sidebar-primary-foreground: 255 255 255; /* white */
-    --sidebar-accent: 248 250 252; /* slate-50 */
+    --sidebar-accent: 255 255 255; /* white */
     --sidebar-accent-foreground: 51 65 85; /* slate-700 */
     --sidebar-border: 226 232 240; /* slate-200 */
     --sidebar-ring: 147 51 234; /* purple-600 */
