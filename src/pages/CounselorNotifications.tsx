@@ -247,8 +247,8 @@ function NotificationCard({
   onDelete: (id: number) => void;
   onMarkAsRead: (id: number) => void;
   getTypeIcon: (type: string) => React.ReactNode;
-  getPriorityColor: (priority: string) => string;
-  getTypeColor: (type: string) => string;
+  getPriorityColor: (priority: string) => "default" | "destructive" | "outline" | "secondary";
+  getTypeColor: (type: string) => "default" | "destructive" | "outline" | "secondary";
 }) {
   return (
     <div 
